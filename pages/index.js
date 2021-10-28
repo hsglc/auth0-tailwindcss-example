@@ -1,14 +1,24 @@
 /** @format */
 
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-
 export default function Home() {
   return (
-    <h2
-      className="bg-blue-500 text-white">
-      Hello
-    </h2>
+    <div className="site-container">
+      <div className="space-y-2">
+        <h1 className="text-2xl font-extrabold">
+          Ben Hüseyin, Bilgisayar mühendisliği öğrencisiyim
+        </h1>
+        <p>
+          Frontend developer olarak bir startup'ta çalışıyorum. JavaScript
+          yazmaktan oldukça keyif alıyorum.
+        </p>
+        <p>
+          Uygulama geliştirirken ağırlıklı olarak Next.js ve Tailwind.css
+          kullanıyorum.
+        </p>
+      </div>
+      <div className="max-w-3xl m-auto mt-6">
+        <img src="/hs.jpeg" />
+      </div>
+    </div>
   );
 }
