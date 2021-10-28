@@ -8,7 +8,7 @@ export default function Home() {
           Ben Hüseyin, Bilgisayar mühendisliği öğrencisiyim
         </h1>
         <p>
-          Frontend developer olarak bir startup'ta çalışıyorum. JavaScript
+          Frontend developer olarak bir startup&apos;ta çalışıyorum. JavaScript
           yazmaktan oldukça keyif alıyorum.
         </p>
         <p>
